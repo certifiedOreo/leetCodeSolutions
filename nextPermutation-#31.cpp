@@ -31,6 +31,10 @@ public:
         }
         
         
+        //in other cases, swap then swapIndex element with lastPeakIdx-1 element and sort the rest
+        //array in sorted asc but first check for a spcecial case that
+        //if any element is b/w nums[lastPeakElement-1] and nums[lastPeakIdx] in rest of the array then element to be swapIndex will be that element
+
         int swapIndex = lastPeakIdx;
         
         for(int i= lastPeakIdx+1; i<n; i++){
