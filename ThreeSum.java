@@ -1,4 +1,4 @@
-class Solution {
+class ThreeSum {
     public List<List<Integer>> threeSum(int[] nums) {
         // List<List<Integer> > ans = new ArrayList<>();
                 Set<List<Integer>> triplets = new HashSet<>();
